@@ -10,7 +10,7 @@ Currently, **only version 1 'Izmir' Beta** is available. Use at your own risk.
 
 ## Usage
 
-1. Make sure `medos-bootstrap.sh` and `medos-rootfs` are in the same directory.
+1. Make sure `medos-create.sh` and `medos-rootfs` are in the same directory.
 2. Run the script:
 
 ```bash
