@@ -5,13 +5,40 @@
 This repository contains a simple bootstrap script for MedOS.  
 It copies the contents of `medos-rootfs` to a target directory, similar to `debootstrap`.
 
-## Warning
-Currently, **only version 1 'Izmir' Beta** is available. Use at your own risk.
+## ⚠️ Warning
+Currently, **only version 1 'Izmir' Beta** is available.  
+Use this script at your own risk.
 
-## Usage
+## 📦 Usage
 
-1. Make sure `medos-create.sh` and `medos-rootfs` are in the same directory.
-2. Run the script:
+**Step 1: Prepare the root filesystem**
+
+Make sure you have `medos-rootfs.zip` in the same directory as this repository.  
+Unzip it to get the `medos-rootfs` folder:
+
+```bash
+unzip medos-rootfs.zip
+```
+
+Step 2: Verify the files
+
+Ensure that the following items exist in your directory:
+
+`medos-bootstrap.sh` (the bootstrap script)
+
+`medos-rootfs/` (the extracted root filesystem)
+
+Step 3: Make the script executable
+
+```bash
+chmod +x medos-bootstrap.sh
+```
+
+Step 4: Run the bootstrap script
+
+Provide a target directory where the root filesystem contents will be copied:
+
 
 ```bash
 ./medos-bootstrap.sh /path/to/target
+```
