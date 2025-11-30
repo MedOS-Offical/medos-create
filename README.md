@@ -17,7 +17,7 @@ Use this script at your own risk.
 You can either download it directly from our server:
 
 ```bash
-wget https://medcell.com.tr/medos-create.tar.gz
+wget https://medcell.tr/medos/medos-rootfs.tar.gz
 ```
 
 Or, if you already have it, make sure `medos-rootfs.tar.gz` is in the same directory as this repository.
